@@ -10,7 +10,7 @@ My_hostname= echo "Given hostname is : $(hostname)"
 # Tell the user what the current hostname is in a human friendly way
 echo $My_hostname
 # Ask for the user's student number using the read command
-read -p "Please enter the Student Number : ";
+read -p "Please enter the Student number : ";
 Std_ID="pc${REPLY}"
 echo $Std_ID
 
